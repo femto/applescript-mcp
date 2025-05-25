@@ -5,6 +5,7 @@ This server provides a standardized interface for AI applications to control sys
 
 [![Node.js CI](https://github.com/joshrutkowski/applescript-mcp/actions/workflows/node.js.yml/badge.svg)](https://github.com/joshrutkowski/applescript-mcp/actions/workflows/node.js.yml)
 
+[![smithery badge](https://smithery.ai/badge/@femto/applescript-mcp)](https://smithery.ai/server/@femto/applescript-mcp)
 <a href="https://glama.ai/mcp/servers/0t5gydjcqw"><img width="380" height="200" src="https://glama.ai/mcp/servers/0t5gydjcqw/badge" alt="applescript-mcp MCP server" /></a>
 
 ## Features
@@ -322,6 +323,14 @@ npm run build
 # Launch MCP Inspector
 # See: https://modelcontextprotocol.io/docs/tools/inspector
 npx @modelcontextprotocol/inspector node path/to/server/index.js args...
+```
+
+### Installing via Smithery
+
+To install applescript-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@femto/applescript-mcp):
+
+```bash
+npx -y @smithery/cli install @femto/applescript-mcp --client claude
 ```
 
 ### Adding New Functionality
